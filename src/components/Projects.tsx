@@ -17,6 +17,17 @@ interface Project {
 
 const fallbackProjects: Project[] = [
   {
+    id: 9,
+    title: "Orbit Coffee",
+    description:
+      "A warm, minimal coffee shop site with smooth scroll animations, a seasonal menu slider, live design tweaks, and an AI barista chat.",
+    tags: ["React", "Vite", "AI Chat"],
+    category: ["All", "Web"],
+    url: "https://orbit-coffee.vercel.app",
+    gitUrl: "https://github.com/ArtyomZayarny/orbit-coffee",
+    image: "/images/projects/orbit-coffee.png",
+  },
+  {
     id: 8,
     title: "Oishi Sushi",
     description:
