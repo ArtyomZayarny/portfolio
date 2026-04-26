@@ -17,6 +17,17 @@ interface Project {
 
 const fallbackProjects: Project[] = [
   {
+    id: 8,
+    title: "Oishi Sushi",
+    description:
+      "A full-stack sushi-ordering app with server-side rendering, real-time order status over WebSockets, and an admin panel for menu management.",
+    tags: ["Angular", "NestJS", "PostgreSQL"],
+    category: ["All", "Web"],
+    url: "https://oishi-sushi.vercel.app",
+    gitUrl: "https://github.com/ArtyomZayarny/oishi-sushi",
+    image: "/images/projects/oishi-sushi.png",
+  },
+  {
     id: 1,
     title: "Barbershop Landing",
     description:
